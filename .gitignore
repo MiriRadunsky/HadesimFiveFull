@@ -1,5 +1,3 @@
-# Ignore bin, obj and .vs directories
-/bin/
-/obj/
-/.vs/
-
+# Build results
+[Bb]in/
+[Oo]bj/

@@ -169,23 +169,37 @@ namespace BLL.Services
         }
 
 
-   
+
+
+        //public async Task<bool> loginSupplierAsync(string company, string phone)
+        //{
+        //    var supplier = await _suppliersService.ProxyByCompanyAndPhoneNumber(company, phone);
+
+        //    if (supplier == null)
+        //    {
+        //        return false;
+        //    }
+
+        //    return true;
+        //}
 
         public async Task<int> loginSupplierAsync(string company, string phone)
         {
+           
             var supplierExists = await _suppliersService.GetSupplierByCompany(company);
             if (supplierExists == null)
             {
                 return -1; 
             }
 
+            
             var supplier = await _suppliersService.ProxyByCompanyAndPhoneNumber(company, phone);
             if (supplier == null)
             {
-                return 0; 
+                return 0;
             }
 
-            return 1; 
+            return 1;
         }
 
 

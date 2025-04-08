@@ -1,4 +1,5 @@
-﻿async function loginSupplier() {
+﻿
+async function loginSupplier() {
     const company = document.getElementById('company').value;
     const phone = document.getElementById('phone').value;
     localStorage.setItem("supplierCompany", company);
@@ -14,18 +15,18 @@
             body: formData
         });
 
-        console.log("סטטוס התגובה:", response.status); 
-
         if (response.ok) {
-            
+            // התחברות הצליחה
             window.location.href = 'supplier-requests.html';
+        } else if (response.status === 403) {
+            // החברה קיימת אבל מספר הטלפון שגוי
+            alert('מספר הטלפון שגוי');
         } else if (response.status === 401) {
+            // החברה לא קיימת במערכת
             window.location.href = 'supplier-register.html';
-        //} else if (response.status === 403 || response.status === 400 || response.status === 404) {
-        //    alert('מספר הטלפון שגוי');
-        //} else {
-        //    alert('שגיאה בשירות. נסה שוב מאוחר יותר.');
-        //}
+        } else {
+            alert('שגיאה בכניסה. נסה שוב מאוחר יותר.');
+        }
     } catch (error) {
         console.error('שגיאה בשירות:', error);
         alert('שגיאה בשירות. נסה שוב מאוחר יותר.');

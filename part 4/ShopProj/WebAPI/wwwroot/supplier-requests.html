@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8">
+    <title>Store Management</title>
+    <link rel="icon" href="../pic/icon.png" type="image/png">
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/supplier-requests.css">
+</head>
+<body>
+    <h1 id="pageTitle">ניהול ספק</h1>
+
+    <div class="section">
+        <h2>הוספת סחורה</h2>
+        <div class="goods-inputs">
+            <input type="text" id="goodName" placeholder="שם סחורה">
+            <input type="number" id="goodQuantity" placeholder="כמות">
+            <input type="number" id="goodPrice" placeholder="מחיר ליחידה">
+            <button onclick="addToList()">הוסף לרשימה</button>
+        </div>
+        <ul id="goodsList"></ul>
+        <button onclick="submitGoods()">הוספת סחורה </button>
+    </div>
+
+    <div class="section">
+        <h2>הזמנות</h2>
+        <div id="ordersContainer">טוען הזמנות...</div>
+    </div>
+
+    <script src="js/supplier-requests.js"></script>
+</body>
+</html>

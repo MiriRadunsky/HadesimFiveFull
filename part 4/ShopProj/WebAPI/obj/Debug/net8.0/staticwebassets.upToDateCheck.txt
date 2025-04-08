@@ -1,0 +1,17 @@
+wwwroot\css\storeowner.css
+wwwroot\css\style.css
+wwwroot\css\supplier-login.css
+wwwroot\css\supplier-register.css
+wwwroot\css\supplier-requests.css
+wwwroot\index.html
+wwwroot\js\index.js
+wwwroot\js\storeowner.js
+wwwroot\js\supplier-login.js
+wwwroot\js\supplier-register.js
+wwwroot\js\supplier-requests.js
+wwwroot\pic\icon.png
+wwwroot\pic\shpe.png
+wwwroot\storeowner-login.html
+wwwroot\supplier-login.html
+wwwroot\supplier-register.html
+wwwroot\supplier-requests.html

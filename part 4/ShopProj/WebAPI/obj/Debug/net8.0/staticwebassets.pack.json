@@ -1,0 +1,93 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\User\\Desktop\\הדסים\\part 4\\ShopProj\\WebAPI\\wwwroot\\css\\storeowner.css",
+      "PackagePath": "staticwebassets\\css\\storeowner.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\הדסים\\part 4\\ShopProj\\WebAPI\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\הדסים\\part 4\\ShopProj\\WebAPI\\wwwroot\\css\\supplier-login.css",
+      "PackagePath": "staticwebassets\\css\\supplier-login.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\הדסים\\part 4\\ShopProj\\WebAPI\\wwwroot\\css\\supplier-register.css",
+      "PackagePath": "staticwebassets\\css\\supplier-register.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\הדסים\\part 4\\ShopProj\\WebAPI\\wwwroot\\css\\supplier-requests.css",
+      "PackagePath": "staticwebassets\\css\\supplier-requests.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\הדסים\\part 4\\ShopProj\\WebAPI\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\הדסים\\part 4\\ShopProj\\WebAPI\\wwwroot\\js\\index.js",
+      "PackagePath": "staticwebassets\\js\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\הדסים\\part 4\\ShopProj\\WebAPI\\wwwroot\\js\\storeowner.js",
+      "PackagePath": "staticwebassets\\js\\storeowner.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\הדסים\\part 4\\ShopProj\\WebAPI\\wwwroot\\js\\supplier-login.js",
+      "PackagePath": "staticwebassets\\js\\supplier-login.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\הדסים\\part 4\\ShopProj\\WebAPI\\wwwroot\\js\\supplier-register.js",
+      "PackagePath": "staticwebassets\\js\\supplier-register.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\הדסים\\part 4\\ShopProj\\WebAPI\\wwwroot\\js\\supplier-requests.js",
+      "PackagePath": "staticwebassets\\js\\supplier-requests.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\הדסים\\part 4\\ShopProj\\WebAPI\\wwwroot\\pic\\icon.png",
+      "PackagePath": "staticwebassets\\pic\\icon.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\הדסים\\part 4\\ShopProj\\WebAPI\\wwwroot\\pic\\shpe.png",
+      "PackagePath": "staticwebassets\\pic\\shpe.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\הדסים\\part 4\\ShopProj\\WebAPI\\wwwroot\\storeowner-login.html",
+      "PackagePath": "staticwebassets\\storeowner-login.html"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\הדסים\\part 4\\ShopProj\\WebAPI\\wwwroot\\supplier-login.html",
+      "PackagePath": "staticwebassets\\supplier-login.html"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\הדסים\\part 4\\ShopProj\\WebAPI\\wwwroot\\supplier-register.html",
+      "PackagePath": "staticwebassets\\supplier-register.html"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\הדסים\\part 4\\ShopProj\\WebAPI\\wwwroot\\supplier-requests.html",
+      "PackagePath": "staticwebassets\\supplier-requests.html"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WebAPI.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WebAPI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.WebAPI.props",
+      "PackagePath": "build\\WebAPI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.WebAPI.props",
+      "PackagePath": "buildMultiTargeting\\WebAPI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.WebAPI.props",
+      "PackagePath": "buildTransitive\\WebAPI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

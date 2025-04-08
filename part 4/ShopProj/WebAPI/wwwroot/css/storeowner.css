@@ -1,0 +1,73 @@
+﻿body {
+    direction: rtl;
+    font-family: 'Varela Round', sans-serif;
+    padding: 30px;
+    background-color: #f0f4f8;
+    color: #333;
+}
+
+h1 {
+    font-size: 2em;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #34495e;
+    margin-top: 30px;
+    font-size: 1.4em;
+}
+
+.section {
+    background-color: #ffffff;
+    border: 1px solid #dcdfe3;
+    border-radius: 14px;
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.order {
+    background-color: #eaf2ff;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+.goods-inputs input {
+    margin-left: 10px;
+    margin-bottom: 10px;
+    padding: 6px;
+    border-radius: 30px; 
+    border: 1px solid #ccc;
+}
+
+
+button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 6px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+    button:hover {
+        background-color: #0056b3;
+    }
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.good-item {
+    margin-bottom: 5px;
+}
+input[type="text"], input[type="number"] {
+    border-radius: 6px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+

@@ -1,3 +1,5 @@
-# Ignore BIN and .vs directories
-/BIN/
+# Ignore bin, obj and .vs directories
+/bin/
+/obj/
 /.vs/
+
